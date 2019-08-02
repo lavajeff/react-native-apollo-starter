@@ -7,7 +7,9 @@
     "test": "jest",
     "lint": "eslint .",
     "run-ios": "react-native run-ios",
-    "run-android": "react-native run-android"
+    "run-android": "react-native run-android",
+    "is-pretty": "prettier --check 'src/**'",
+    "prettify": "prettier --config prettier.config.js --write 'src/**'"
   },
   "dependencies": {
     "apollo-boost": "^0.4.3",
@@ -27,6 +29,7 @@
     "eslint": "^6.1.0",
     "jest": "^24.8.0",
     "metro-react-native-babel-preset": "^0.55.0",
+    "prettier": "1.18.2",
     "react-test-renderer": "16.8.6"
   },
   "jest": {

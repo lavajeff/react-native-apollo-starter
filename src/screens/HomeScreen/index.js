@@ -1,5 +1,5 @@
-import React, { Component } from "react";
-import { Text, SafeAreaView } from "react-native";
+import React, { Component } from 'react';
+import { Text, SafeAreaView } from 'react-native';
 
 class HomeScreen extends Component {
   constructor(props) {
